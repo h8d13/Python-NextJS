@@ -122,12 +122,12 @@ Here’s an overview of the directory structure and what each folder/file repres
 │   │   ├── .next/         # Build output directory (generated during build basically cache)
 │   │   ├── node_modules/  # JavaScript dependencies (managed by npm)
 │   │   ├── public/        # Static assets like images, fonts, etc.
-│   │   ├── src/           ### MAIN SOURCE CODE
+│   │   ├── src/           ### MAIN FRONT-END CODE
 │   │   ├── package.json   # Project metadata and npm scripts
 │   │   └── ...            # Other Next.js configuration files
 │   └── ...                
 ├── requirements.txt       # Python dependencies for the backend
-├── server.py              # Flask backend server file > Can be linked to other files...
+├── server.py              # MAIN BACKEND CODE > Can be linked to other files...
 ├── README.md              # Project documentation
 └── ...                    # Other project-specific files
 ```
@@ -135,6 +135,5 @@ Here’s an overview of the directory structure and what each folder/file repres
 ### Workflow:
 - Develop the frontend inside `.venv/sfront`.
 - Run and manage backend services via the `server.py` file.
-- Use the `README.md` and project structure to understand and navigate the codebase.
 
 
