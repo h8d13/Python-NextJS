@@ -5,12 +5,6 @@
 ### Create and Activate a Virtual Environment
 Make sure to create a virtual environment (`venv`) before starting:
 
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-.venv\Scripts\activate     # Windows
-```
-
 ### Ensure These Tools are Accessible Inside Your `.venv`
 - **Node.js**: Check installation with `node --version`.
 - **npm**: Check with `npm --version`.
@@ -72,10 +66,10 @@ Use threading in Python to run both servers simultaneously if needed.
 
 ### Ports:
 - Default **Next.js frontend**: `http://localhost:3000`
-- Default **Flask backend**: `http://127.0.0.1:5000`
+- Default **Flask backend**: `http://localhost:5000`
 
 ### Flask-CORS:
-Allows seamless communication between the frontend and backend.
+Allows communication between the frontend and backend.
 
 ---
 
@@ -92,7 +86,7 @@ Allows seamless communication between the frontend and backend.
 
 ### Performance:
 - Sub-40ms response time for simple Python backend tasks.
-- Leverages **JavaScript Workers** for rendering, computation, and communication.
+- Can leverage JS workers for rendering, communication and even light-weight computational. 
 - Easily pass heavy computational tasks to Python.
 
 ---
@@ -112,4 +106,40 @@ You can achieve **real-time video feed with image recognition** (e.g., YOLO mode
 
 ---
 
-Explore the limitless potential of combining the power of Next.js with Python!
+## Project Structure
+
+Here’s an overview of the directory structure and what each folder/file represents:
+
+```
+## Project Structure
+
+Here’s an overview of the directory structure with `sfront` located inside `.venv`:
+
+```
+.
+├── .venv/                 # Python virtual environment
+│   ├── bin/               # Executables and scripts (Linux/Mac)
+│   ├── include/           # C header files for compiling Python extensions
+│   ├── lib/               # Python libraries and dependencies
+│   ├── ...                # More python things
+
+│   ├── sfront/            # Next.js frontend project (nested inside `.venv`)
+│   │   ├── .next/         # Build output directory (generated during build basically cache)
+│   │   ├── node_modules/  # JavaScript dependencies (managed by npm)
+│   │   ├── public/        # Static assets like images, fonts, etc.
+│   │   ├── src/           ### MAIN SOURCE CODE
+│   │   ├── package.json   # Project metadata and npm scripts
+│   │   └── ...            # Other Next.js configuration files
+│   └── ...                
+├── requirements.txt       # Python dependencies for the backend
+├── server.py              # Flask backend server file > Can be linked to other files...
+├── README.md              # Project documentation
+└── ...                    # Other project-specific files
+```
+
+### Workflow:
+- Develop the frontend inside `.venv/sfront`.
+- Run and manage backend services via the `server.py` file.
+- Use the `README.md` and project structure to understand and navigate the codebase.
+
+
