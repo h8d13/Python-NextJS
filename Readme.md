@@ -71,34 +71,6 @@ Use threading in Python to run both servers simultaneously if needed.
 ### Flask-CORS:
 Allows communication between the frontend and backend.
 
----
-
-## Advantages of this Stack
-
-### Next.js:
-- Exceptional at rendering/routing (even server-side).
-- Convenient for building frontend and middleware.
-- Works well with Tailwind for custom themes (e.g., dark/light mode).
-
-### Python Backend:
-- Powerful for heavy computations and backend tasks.
-- Native support for SQLite for database needs.
-
-### Performance:
-- Sub-40ms response time for simple Python backend tasks.
-- Can leverage JS workers for rendering, communication and even light-weight computational. 
-- Easily pass heavy computational tasks to Python.
-
----
-
-## Example Use Case
-
-You can achieve **real-time video feed with image recognition** (e.g., YOLO model) in **less than 120 lines of code**. The backend processes data and streams results to the frontend.
-
-- **Performance on a laptop**: Achieved 18 FPS for live image recognition!
-
----
-
 ### Screenshot:
 
 ![Example Output](./Screenshot.png)
@@ -136,4 +108,29 @@ Here’s an overview of the directory structure and what each folder/file repres
 - Develop the frontend inside `.venv/sfront`.
 - Run and manage backend services via the `server.py` file.
 
+---
+
+## Advantages of this Stack
+
+### Next.js:
+- Exceptional at rendering/routing (even server-side).
+- Convenient for building frontend and middleware.
+- Works well with Tailwind for custom themes (e.g., dark/light mode).
+
+### Python Backend:
+- Powerful for heavy computations and backend tasks.
+- Native support for SQLite for database needs.
+
+### Performance:
+- Sub-40ms response time for simple Python backend tasks.
+- Can leverage JS workers for rendering, communication and even light-weight computational. 
+- Easily pass heavy computational tasks to Python.
+
+---
+
+## Example Use Case
+
+You can achieve **real-time video feed with image recognition** (e.g., YOLO model) in **less than 120 lines of code**. The backend processes data and streams results to the frontend.
+
+- **Performance on a laptop**: Achieved 18 FPS for live image recognition!
 
