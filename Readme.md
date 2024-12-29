@@ -20,12 +20,12 @@ Run the following to create a TypeScript-based Next.js app inside your `.venv`:
 npx create-next-app@latest sfront --typescript
 ```
 
-This will generate a Next.js project (similar to React but more powerful).
+This will generate a Next.js project, answer yes to all questions appart from custom alias @ 
 
 ### Start the Next.js App:
 ```bash
 cd sfront
-npm run dev
+Then start editing page.tsx 
 ```
 By default, the app runs on `http://localhost:3000`.
 
