@@ -1,4 +1,4 @@
-# Full-Stack Development: Next.js Frontend + Python Backend
+# Next.js + Python
 
 ## Environment Setup
 
