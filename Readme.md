@@ -132,5 +132,5 @@ Here’s an overview of the directory structure and what each folder/file repres
 
 You can achieve **real-time video feed with image recognition** (e.g., YOLO model) in **less than 120 lines of code**. The backend processes data and streams results to the frontend.
 
-- **Performance on a laptop**: Achieved 18 FPS for live image recognition!
+- **Performance on a laptop**: Achieved 18 FPS for live image recognition, YOLOv8 with Standard dataset. No multi-threading, no GPU. 
 
