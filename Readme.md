@@ -107,7 +107,8 @@ You can achieve **real-time video feed with image recognition** (e.g., YOLO mode
 
 ### Screenshot:
 
-![Example Output](Screenshot from 2024-12-29 12-56-52.png)
+![Example Output](./Screenshot from 2024-12-29 12-56-52.png)
+
 
 ---
 
