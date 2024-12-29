@@ -50,15 +50,13 @@ pip install flask flask-cors
 ### Split-Terminal Approach:
 - Run the **Next.js frontend**:
   ```bash
-  npm run dev
+  sudo npm run dev
   ```
 - Run the **Flask backend**:
   ```bash
-  flask run
+  sudo ./bin/python3 server.py
   ```
-
-### Single-Script Approach (Optional):
-Use threading in Python to run both servers simultaneously if needed.
+- Unsure on the specifics of other platforms :3
 
 ---
 
