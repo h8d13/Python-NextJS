@@ -111,11 +111,6 @@ You can achieve **real-time video feed with image recognition** (e.g., YOLO mode
 Here’s an overview of the directory structure and what each folder/file represents:
 
 ```
-## Project Structure
-
-Here’s an overview of the directory structure with `sfront` located inside `.venv`:
-
-```
 .
 ├── .venv/                 # Python virtual environment
 │   ├── bin/               # Executables and scripts (Linux/Mac)
