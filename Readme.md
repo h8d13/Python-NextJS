@@ -114,10 +114,12 @@ Here’s an overview of the directory structure and what each folder/file repres
 - Exceptional at rendering/routing (even server-side).
 - Convenient for building frontend and middleware.
 - Works well with Tailwind for custom themes (e.g., dark/light mode).
+- Can be made native using Electron runtime.
 
 ### Python Backend:
 - Powerful for heavy computations and backend tasks.
 - Native support for SQLite for database needs.
+- Built-in most devices
 
 ### Performance:
 - Sub-40ms response time for simple Python backend tasks.
