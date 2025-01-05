@@ -113,8 +113,9 @@ Here’s an overview of the directory structure and what each folder/file repres
 ### Next.js:
 - Exceptional at rendering/routing (even server-side).
 ```
-File-based: pages/post/[id].tsx
-Folder-based: pages/[category]/[id].tsx
+//File-based: pages/post/[id].tsx
+//Folder-based: pages/[category]/[id].tsx
+# and APIs
 // app/api/[id]/route.ts
 // app/api/[category]/[id]/route.ts
 ```
