@@ -112,13 +112,20 @@ Here’s an overview of the directory structure and what each folder/file repres
 
 ### Next.js:
 - Exceptional at rendering/routing (even server-side).
-- Convenient for building frontend and middleware.
+```
+File-based: pages/post/[id].tsx
+Folder-based: pages/[category]/[id].tsx
+// app/api/[id]/route.ts
+// app/api/[category]/[id]/route.ts
+```
+
+- Convenient for building frontend, middleware, APIs.
 - Works well with Tailwind for custom themes (e.g., dark/light mode).
 - Can be made native using Electron runtime.
 
 ### Python Backend:
-- Powerful for heavy computations and backend tasks.
-- Native support for SQLite for database needs.
+- Powerful for heavy computations and backend tasks. 
+- Native support for SQLite for database access needs.
 - Built-in most devices
 
 ### Performance:
